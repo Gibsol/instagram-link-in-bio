@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
-$rubik: 'Rubik', sans-serif;
+$font-rubik: 'Rubik', sans-serif;
 
 $color-main: #001D6E;
 $color-sec: #7FB5FF;
@@ -14,7 +14,7 @@ html {
 
 * {
     margin: 0;
-    font-family: $rubik;
+    font-family: $font-rubik;
 }
 
 #main {
