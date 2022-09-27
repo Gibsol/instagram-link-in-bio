@@ -11,6 +11,6 @@ Some simple SCSS and Bulma ^-^
 
 Ready to use
 
-## Licence :w
+## Licence
 
 GNU General Public Licence v3.0
