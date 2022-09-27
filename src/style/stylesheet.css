@@ -1,0 +1,35 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+html {
+  background-color: #C4DDFF;
+}
+
+* {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+#main .title {
+  font-size: 50px;
+  color: #001D6E;
+}
+#main .subtitle {
+  color: #7FB5FF;
+}
+
+.button-website {
+  color: #7FB5FF;
+  background-color: #C4DDFF;
+  width: 400px;
+  transition-duration: 0.4s;
+  border: 1px solid #001D6E;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.button-website:hover {
+  color: #7FB5FF;
+  background-color: #001D6E;
+  border: 1px solid #001D6E;
+}/*# sourceMappingURL=stylesheet.css.map */

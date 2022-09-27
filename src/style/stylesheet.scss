@@ -1,0 +1,46 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+$bold-rubik: 'Fredoka One', cursive;
+$rubik: 'Rubik', sans-serif;
+
+$color-main: #001D6E;
+$color-sec: #7FB5FF;
+$color-bg: #C4DDFF;
+
+html {
+    background-color: $color-bg;
+}
+
+* {
+    margin: 0;
+    font-family: $rubik;
+}
+
+#main {
+    .title {
+        font-size: 50px;
+        color: $color-main;
+    }
+
+    .subtitle {
+        color: $color-sec;
+    }
+}
+
+.button-website {
+    color: $color-sec;
+    background-color: $color-bg;
+    width: 400px;
+    transition-duration: 0.4s;
+    border: 1px solid $color-main;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.button-website:hover {
+    color: $color-sec;
+    background-color: $color-main;
+    border: 1px solid $color-main;
+}
