@@ -1,7 +1,7 @@
-linkWebsite= "https://gibsol.dev";
-linkGithub = "https://github.com/gibsol";
-linkSoundcloud = "https://soundcloud.com/gibsol";
-linkDiscord = "https://discord.com/users/247422696038596609";
+let linkWebsite = "https://gibsol.dev";
+let linkGithub = "https://github.com/gibsol";
+let linkSoundcloud = "https://soundcloud.com/gibsol";
+let linkDiscord = "https://discord.com/users/247422696038596609";
 
 function forwardWebsite() {
     location.href = websiteLink;
