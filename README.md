@@ -5,7 +5,7 @@ My version of the "Link in Bio" type website. And also a minimalistic template o
 
 ## Technologies used
 
-Some primitive SCSS and Bulma
+Some simple SCSS and Bulma ^-^
 
 ## Project Status
 
