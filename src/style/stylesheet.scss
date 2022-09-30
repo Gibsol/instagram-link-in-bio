@@ -9,7 +9,8 @@ $color-sec: #A6D1E6;
 $color-bg: #FEFBF6;
 
 html {
-    background-color: $color-bg;
+    background: rgb(83,48,88);
+    background: linear-gradient(90deg, rgba(83,48,88,1) 44%, rgba(126,121,118,1) 100%);
 }
 
 * {
@@ -29,13 +30,14 @@ html {
 }
 
 .button-website {
-    color: $color-sec;
-    background-color: $color-bg;
+    background: rgb(83,48,88);
+    background: linear-gradient(90deg, rgba(83,48,88,1) 44%, rgba(126,121,118,1) 100%);
     width: 400px;
     transition-duration: 0.4s;
-    border: 1px solid $color-main;
+    border: 2px solid $color-main;
     border-radius: 8px;
     text-decoration: none;
+    color: $color-sec;
 }
 
 .button-website:hover {

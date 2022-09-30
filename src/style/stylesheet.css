@@ -2,7 +2,8 @@
 @import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 html {
-  background-color: #FEFBF6;
+  background: rgb(83, 48, 88);
+  background: linear-gradient(90deg, rgb(83, 48, 88) 44%, rgb(126, 121, 118) 100%);
 }
 
 * {
@@ -19,13 +20,14 @@ html {
 }
 
 .button-website {
-  color: #A6D1E6;
-  background-color: #FEFBF6;
+  background: rgb(83, 48, 88);
+  background: linear-gradient(90deg, rgb(83, 48, 88) 44%, rgb(126, 121, 118) 100%);
   width: 400px;
   transition-duration: 0.4s;
-  border: 1px solid #7F5283;
+  border: 2px solid #7F5283;
   border-radius: 8px;
   text-decoration: none;
+  color: #A6D1E6;
 }
 
 .button-website:hover {
