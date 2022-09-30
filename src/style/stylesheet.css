@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 html {
-  background-color: #C4DDFF;
+  background-color: #FEFBF6;
 }
 
 * {
@@ -12,24 +12,24 @@ html {
 
 #main .title {
   font-size: 50px;
-  color: #001D6E;
+  color: #7F5283;
 }
 #main .subtitle {
-  color: #7FB5FF;
+  color: #A6D1E6;
 }
 
 .button-website {
-  color: #7FB5FF;
-  background-color: #C4DDFF;
+  color: #A6D1E6;
+  background-color: #FEFBF6;
   width: 400px;
   transition-duration: 0.4s;
-  border: 1px solid #001D6E;
+  border: 1px solid #7F5283;
   border-radius: 8px;
   text-decoration: none;
 }
 
 .button-website:hover {
-  color: #7FB5FF;
-  background-color: #001D6E;
-  border: 1px solid #001D6E;
+  color: #A6D1E6;
+  background-color: #7F5283;
+  border: 1px solid #7F5283;
 }/*# sourceMappingURL=stylesheet.css.map */
