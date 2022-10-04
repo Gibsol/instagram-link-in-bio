@@ -2,15 +2,15 @@
 @import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
-$font-rubik: 'Rubik', sans-serif;
+$font-rubik: "Rubik", sans-serif;
 
-$color-main: #7F5283;
-$color-sec: #A6D1E6;
-$color-bg: #FEFBF6;
+$color-main: #7f5283;
+$color-sec: #a6d1e6;
+$color-bg: #fefbf6;
 
 html {
-    background: rgb(83,48,88);
-    background: linear-gradient(90deg, rgba(83,48,88,1) 44%, rgba(126,121,118,1) 100%);
+    background: rgb(83, 48, 88);
+    background: linear-gradient(90deg, rgba(83, 48, 88, 1) 44%, rgba(126, 121, 118, 1) 100%);
 }
 
 * {
@@ -30,8 +30,8 @@ html {
 }
 
 .button-website {
-    background: rgb(83,48,88);
-    background: linear-gradient(90deg, rgba(83,48,88,1) 44%, rgba(126,121,118,1) 100%);
+    background: rgb(83, 48, 88);
+    background: linear-gradient(90deg, rgba(83, 48, 88, 1) 44%, rgba(126, 121, 118, 1) 100%);
     width: 400px;
     transition-duration: 0.4s;
     border: 2px solid $color-main;
