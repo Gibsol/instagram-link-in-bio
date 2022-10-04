@@ -4,7 +4,7 @@ let linkSoundcloud = "https://soundcloud.com/gibsol";
 let linkDiscord = "https://discord.com/users/247422696038596609";
 
 function forwardWebsite() {
-    location.href = websiteLink;
+    location.href = linkWebsite;
 }
 
 function forwardGithub() {
