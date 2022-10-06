@@ -38,10 +38,10 @@ html {
     border-radius: 8px;
     text-decoration: none;
     color: $color-sec;
-}
-
-.button-website:hover {
-    color: $color-sec;
-    background-color: $color-main;
-    border: 1px solid $color-main;
+    
+    &:hover {
+        color: $color-sec;
+        background-color: $color-main;
+        border: 1px solid $color-main;
+    }
 }
